@@ -19,6 +19,10 @@
   margin-bottom: 0px;
 }
 
+.hero a {
+  text-decoration: none;
+  color: white;
+}
 .hero h2 {
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
@@ -88,7 +92,7 @@
   font-family: "Playfair Display", serif;
   font-size: 18px;
 }
-a {
+.about-section a {
   text-decoration: none;
   color: white;
 }
