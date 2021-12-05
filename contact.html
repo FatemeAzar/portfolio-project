@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>Contact Fatemeh</title>
+    <meta
+      name="description"
+      content="Fatemeh
+      is a front-end engineer based in Iran."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,6 +37,22 @@
   </head>
 </html>
 <body>
+  <nav class="d-flex justify-content-between">
+    <img src="logo.png" alt="Fatemeh logo" class="logo d-none d-md-block" />
+    <img
+      src="smalllogo.png"
+      alt="Fatemeh logo"
+      class="logo d-block d-md-none"
+    />
+    <ul>
+      <li><a href="/" title="Homepage">Home</a></li>
+      <li><a href="/about.html" title="About page">About</a></li>
+      <li><a href="/work.html" title="Workpage">Work</a></li>
+      <li class="active">
+        <a href="/contact.html" title="Contactpage">Contact</a>
+      </li>
+    </ul>
+  </nav>
   <div class="content-container container">
     <div class="content">
       <h1 class="mb-5">Let's get in touch!</h1>
@@ -40,5 +61,59 @@
       <h3>Instagram</h3>
       <p>@fateme_.azar</p>
     </div>
+  </div>
+  <div class="container">
+    <footer>
+      <div class="contact-box d-flex justify-content-between d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <button>
+            <a href="contact.html" title="Contact Fatemeh">Cntact me</a>
+          </button>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <a
+          href="maito:fatemeazarhazin91@gmail.com"
+          class="email-link"
+          title="Email Fatemeh"
+          >fatemeazarhazin91@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5 mt-3">
+        <a
+          href="https://www.instagram.com"
+          title="Instagram Profile"
+          target="_blank"
+        >
+          <img src="instagram.png" alt="" />
+        </a>
+        <a
+          href="https://www.twitter.com"
+          title="Twitter Profile"
+          target="_blank"
+        >
+          <img src="twittter.png" alt="" class="font-awsome" />
+        </a>
+        <a
+          href="https://www.facebook.com"
+          title="Facebook Profile"
+          target="_blank"
+        >
+          <img src="facebook.png" alt="" class="font-awsome facebook" />
+        </a>
+      </div>
+      <p class="text-center mt-2">
+        This project was coded by Fatemeh and it is
+        <a
+          href="https://github.com/FatemeAzar/portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </div>
 </body>
