@@ -77,26 +77,29 @@
   .hero h1 {
     font-size: 40px;
   }
+  .content {
+    text-align: center;
+  }
 }
 
-.about-section {
+.content-container {
   text-align: center;
 }
-.about-section h1 {
+.content-container h1 {
   font-family: "Playfair Display", serif;
   font-size: 64px;
   line-height: 1.5;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-family: "Playfair Display", serif;
   font-size: 18px;
 }
-.about-section a {
+.content-container a {
   text-decoration: none;
   color: white;
 }
-.about-section button {
+.content-container button {
   background-color: #6c63ff;
   padding: 18px 30px;
   border-radius: 4px;
@@ -107,11 +110,16 @@
   font-weight: normal;
 }
 
-.about-section img {
+.content-container img {
   max-width: 350px;
   height: 500px;
   border-radius: 15px;
 }
-.about-section .container {
+.content-container {
   padding: 60px 20px;
+}
+
+.content-container h3 {
+  font-size: 24px;
+  font-family: "Poppins";
 }
