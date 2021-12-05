@@ -153,3 +153,39 @@ nav li.active a {
   font-size: 24px;
   font-family: "Poppins";
 }
+
+.font-awsome {
+  background-color: #f9f7fe;
+  padding: 10px;
+  border: 1px solid #f9f7fe;
+  border-radius: 30px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: #6c63ff;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+}
+
+footer .facebook {
+  padding: 10px 15px;
+  border-radius: 100px;
+}
+
+footer .contact-box {
+  background-color: #f9f7fe;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer h4 {
+  font-size: 48px;
+}
