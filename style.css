@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 900px) {
-  .container img {
+  .mobile {
     display: none;
   }
   .project-description {
@@ -73,4 +73,38 @@
   .hero h1 {
     font-size: 40px;
   }
+}
+
+.about-section {
+  text-align: center;
+}
+.about-section h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.about-section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+.about-section button {
+  background-color: #6c63ff;
+  padding: 18px 30px;
+  border-radius: 4px;
+  border: 1px solid #6c63ff;
+  color: white;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: normal;
+}
+
+.about-section img {
+  max-width: 350px;
+  height: 500px;
+  border-radius: 15px;
+}
+.about-section .container {
+  padding: 60px 20px;
 }
